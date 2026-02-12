@@ -6,35 +6,56 @@
         "description": "パネルスターターテンプレート"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "ログアウト"
-        },
-        "NavSecondary": {
-          "support": "サポート",
-          "feedback": "フィードバック"
-        },
-        "NavMain": {
-          "groupLabel": "メイン",
-          "toggle": "切り替え",
-          "links": {
-            "posts": "投稿",
-            "newPost": "新規投稿"
+        "SiteHeader": {
+          "title": "スターター",
+          "menu": "メニュー",
+          "theme": "テーマ",
+          "nav": {
+            "blogs": "ブログ一覧",
+            "blog": "ブログ",
+            "terms": "利用規約",
+            "privacy": "プライバシー"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "{appName}へようこそ",
-          "description": "アカウントにログインするにはメールアドレスを入力してください。",
-          "emailLabel": "メール",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "ログイン",
-          "or": "または",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "メール",
-          "footer": "続行すると、<terms>利用規約</terms>と<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。"
+        },
+        "SiteFooter": {
+          "title": "スターター",
+          "description": "i18n、ダークテーマ、TanStack Query、ky、env検証、ブログ、shadcn UI対応のNext.jsテンプレート。",
+          "copyright": "© {year} {appName}. ご自由にお使いください。"
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "テンプレート",
+          "title3": "正しく仕上げる。",
+          "description": "i18n、ダークテーマ、TanStack Query、ky、env検証、ブログ、shadcn UI。1リポジトリ。設定の手間なし。",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "ダークテーマ",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Env検証",
+            "blog": "ブログ",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "含まれるもの",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "複数言語、RTL対応、next-intl。ルーティングとメッセージが最初からグローバル対応。",
+            "darkTheme": "ダークテーマ",
+            "darkThemeParagraph": "next-themesとCSS変数。ヘッダーで切り替え、設定を保持。チラつきなし。",
+            "remoteStateManagement": "リモート状態管理",
+            "remoteStateManagementParagraph": "サーバー状態にTanStack Query、取得にky。キャッシュとローディング状態を処理し、UIに集中できます。",
+            "envValidation": "Env検証",
+            "envValidationParagraph": "Zodと@t3-oss/env-nextjsで型付きenv。不足があればビルドまたはランタイムで失敗。",
+            "blog": "ブログ",
+            "blogParagraph": "MDX対応構造で、スタックを見直さずにブログやドキュメントを追加可能。",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "ボタン、カード、フォーム、ダイアログ。テーマとアクセシビリティに配慮したコピペ用コンポーネント。"
+          }
+        },
+        "WhySection": {
+          "title": "設定はもう十分。<strong>作り始めよう。</strong>",
+          "description": "このテンプレートの選択はすべて意図的：実績あるライブラリ、明確な構造、型安全性。クローンしてコンテンツとAPIキーを追加し、リリース。"
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "閉じる"
-    },
-    "sidebar": {
-      "sidebarTitle": "サイドバー",
-      "sidebarDescription": "サイドバーを表示します。",
-      "toggleSidebar": "サイドバーの表示切替"
     },
     "sheet": {
       "close": "閉じる"

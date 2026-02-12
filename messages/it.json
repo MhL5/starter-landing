@@ -6,35 +6,56 @@
         "description": "Modello panel di avvio"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "Esci"
-        },
-        "NavSecondary": {
-          "support": "Supporto",
-          "feedback": "Feedback"
-        },
-        "NavMain": {
-          "groupLabel": "Principale",
-          "toggle": "Attiva/Disattiva",
-          "links": {
-            "posts": "Post",
-            "newPost": "Nuovo post"
+        "SiteHeader": {
+          "title": "Avvio",
+          "menu": "Menu",
+          "theme": "Tema",
+          "nav": {
+            "blogs": "Blog",
+            "blog": "Blog",
+            "terms": "Termini",
+            "privacy": "Privacy"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "Benvenuto in {appName}",
-          "description": "Inserisci la tua email per accedere al tuo account.",
-          "emailLabel": "Email",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "Accedi",
-          "or": "Oppure",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "Email",
-          "footer": "Continuando accetti i nostri <terms>Termini di servizio</terms> e la <privacy>Informativa sulla privacy</privacy>."
+        },
+        "SiteFooter": {
+          "title": "Avvio",
+          "description": "Template Next.js con i18n, tema scuro, TanStack Query, ky, validazione env, blog e shadcn UI.",
+          "copyright": "© {year} {appName}. Uso libero."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "Template",
+          "title3": "fatto bene.",
+          "description": "i18n, tema scuro, TanStack Query, ky, validazione env, blog, shadcn UI. Un repo. Zero mal di testa da config.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "Tema scuro",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Validazione env",
+            "blog": "Blog",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "Cosa include",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "Più lingue, supporto RTL, next-intl. Routing e messaggi pronti per andare globali dal primo giorno.",
+            "darkTheme": "Tema scuro",
+            "darkThemeParagraph": "next-themes e variabili CSS. Toggle nell'header, preferenza salvata. Nessun sfarfallio.",
+            "remoteStateManagement": "Gestione stato remoto",
+            "remoteStateManagementParagraph": "TanStack Query per lo stato server, ky per il fetch. Cache e stati di caricamento gestiti così ti concentri sull'UI.",
+            "envValidation": "Validazione env",
+            "envValidationParagraph": "Env tipizzato con Zod e @t3-oss/env-nextjs. Fallisce in build o runtime se manca qualcosa.",
+            "blog": "Blog",
+            "blogParagraph": "Struttura pronta per MDX per aggiungere blog o documentazione senza ripensare lo stack.",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "Pulsanti, card, form, dialoghi. Componenti copy-paste che rispettano tema e accessibilità."
+          }
+        },
+        "WhySection": {
+          "title": "Basta configurare. <strong>Inizia a costruire.</strong>",
+          "description": "Ogni scelta in questo template è deliberata: librerie collaudate, struttura chiara, type safety. Clonalo, aggiungi contenuti e API key, e pubblica."
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "Chiudi"
-    },
-    "sidebar": {
-      "sidebarTitle": "Barra laterale",
-      "sidebarDescription": "Mostra la barra laterale.",
-      "toggleSidebar": "Mostra/nascondi barra laterale"
     },
     "sheet": {
       "close": "Chiudi"

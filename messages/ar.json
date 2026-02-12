@@ -6,35 +6,56 @@
         "description": "قالب لوحة البداية"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "تسجيل الخروج"
-        },
-        "NavSecondary": {
-          "support": "الدعم",
-          "feedback": "الملاحظات"
-        },
-        "NavMain": {
-          "groupLabel": "الرئيسية",
-          "toggle": "تبديل",
-          "links": {
-            "posts": "المقالات",
-            "newPost": "مقال جديد"
+        "SiteHeader": {
+          "title": "البداية",
+          "menu": "القائمة",
+          "theme": "المظهر",
+          "nav": {
+            "blogs": "المدونات",
+            "blog": "المدونة",
+            "terms": "الشروط",
+            "privacy": "الخصوصية"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "مرحباً بك في {appName}",
-          "description": "أدخل بريدك الإلكتروني لتسجيل الدخول إلى حسابك.",
-          "emailLabel": "البريد الإلكتروني",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "تسجيل الدخول",
-          "or": "أو",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "البريد",
-          "footer": "بالنقر على متابعة، فإنك توافق على <terms>شروط الخدمة</terms> و<privacy>سياسة الخصوصية</privacy>."
+        },
+        "SiteFooter": {
+          "title": "البداية",
+          "description": "قالب Next.js مع i18n والوضع الداكن وTanStack Query وky والتحقق من البيئة والمدونة وواجهة shadcn.",
+          "copyright": "© {year} {appName}. استخدم بحرية."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "قالب",
+          "title3": "بشكل صحيح.",
+          "description": "i18n، الوضع الداكن، TanStack Query، ky، التحقق من البيئة، المدونة، واجهة shadcn. مستودع واحد. بدون متاعب إعداد.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "الوضع الداكن",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "التحقق من البيئة",
+            "blog": "المدونة",
+            "shadcnUI": "واجهة shadcn"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "ماذا بداخله",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "لغات متعددة، دعم RTL، next-intl. التوجيه والرسائل جاهزة للانطلاق عالمياً من اليوم الأول.",
+            "darkTheme": "الوضع الداكن",
+            "darkThemeParagraph": "next-themes ومتغيرات CSS. التبديل في الرأس، تفضيلك محفوظ. بدون وميض.",
+            "remoteStateManagement": "إدارة الحالة البعيدة",
+            "remoteStateManagementParagraph": "TanStack Query لحالة الخادم، ky للجلب. التخزين المؤقت وحالات التحميل معالجة لتركيزك على الواجهة.",
+            "envValidation": "التحقق من البيئة",
+            "envValidationParagraph": "بيئة مُكتوبة مع Zod و@t3-oss/env-nextjs. فشل عند البناء أو التشغيل إذا كان شيء ناقصاً.",
+            "blog": "المدونة",
+            "blogParagraph": "بنية جاهزة لـ MDX لإضافة مدونة أو وثائق دون إعادة التفكير في المكدس.",
+            "shadcnUI": "واجهة shadcn",
+            "shadcnUIParagraph": "أزرار، بطاقات، نماذج، نوافذ. مكونات جاهزة تحترم مظهرك وإمكانية الوصول."
+          }
+        },
+        "WhySection": {
+          "title": "توقف عن الإعداد. <strong>ابدأ البناء.</strong>",
+          "description": "كل اختيار في هذا القالب مقصود: مكتبات مُجرّبة، بنية واضحة، أمان الأنواع. انسخه، أضف محتواك ومفاتيح API، وانطلق."
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "إغلاق"
-    },
-    "sidebar": {
-      "sidebarTitle": "الشريط الجانبي",
-      "sidebarDescription": "يعرض الشريط الجانبي.",
-      "toggleSidebar": "تبديل الشريط الجانبي"
     },
     "sheet": {
       "close": "إغلاق"

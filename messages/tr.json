@@ -6,35 +6,56 @@
         "description": "Panel başlangıç şablonu"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "Çıkış yap"
-        },
-        "NavSecondary": {
-          "support": "Destek",
-          "feedback": "Geri bildirim"
-        },
-        "NavMain": {
-          "groupLabel": "Ana",
-          "toggle": "Aç/Kapat",
-          "links": {
-            "posts": "Gönderiler",
-            "newPost": "Yeni gönderi"
+        "SiteHeader": {
+          "title": "Başlangıç",
+          "menu": "Menü",
+          "theme": "Tema",
+          "nav": {
+            "blogs": "Bloglar",
+            "blog": "Blog",
+            "terms": "Koşullar",
+            "privacy": "Gizlilik"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "{appName} hoş geldiniz",
-          "description": "Hesabınıza giriş yapmak için e-posta adresinizi girin.",
-          "emailLabel": "E-posta",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "Giriş yap",
-          "or": "veya",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "E-posta",
-          "footer": "Devam ederek <terms>Hizmet Şartları</terms> ve <privacy>Gizlilik Politikası</privacy>mızı kabul etmiş olursunuz."
+        },
+        "SiteFooter": {
+          "title": "Başlangıç",
+          "description": "i18n, karanlık tema, TanStack Query, ky, env doğrulama, blog ve shadcn UI içeren Next.js şablonu.",
+          "copyright": "© {year} {appName}. Serbestçe kullanın."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "Şablon",
+          "title3": "Doğru yapıldı.",
+          "description": "i18n, karanlık tema, TanStack Query, ky, env doğrulama, blog, shadcn UI. Tek repo. Sıfır yapılandırma derdi.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "Karanlık tema",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Env doğrulama",
+            "blog": "Blog",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "İçinde neler var",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "Çoklu dil, RTL desteği, next-intl. İlk günden küresel olmak için yönlendirme ve mesajlar hazır.",
+            "darkTheme": "Karanlık tema",
+            "darkThemeParagraph": "next-themes ve CSS değişkenleri. Başlıkta geçiş, tercih saklanır. Titreme yok.",
+            "remoteStateManagement": "Uzak durum yönetimi",
+            "remoteStateManagementParagraph": "Sunucu durumu için TanStack Query, getirme için ky. Önbellek ve yükleme durumları halledildi, UI'a odaklanın.",
+            "envValidation": "Env doğrulama",
+            "envValidationParagraph": "Zod ve @t3-oss/env-nextjs ile yazılmış env. Eksik bir şey varsa derleme veya çalışma zamanında hata.",
+            "blog": "Blog",
+            "blogParagraph": "Yığını yeniden düşünmeden blog veya doküman ekleyebileceğiniz MDX hazır yapı.",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "Düğmeler, kartlar, formlar, diyaloglar. Temanıza ve erişilebilirliğe saygılı kopyala-yapıştır bileşenleri."
+          }
+        },
+        "WhySection": {
+          "title": "Yapılandırmayı bırakın. <strong>Oluşturmaya başlayın.</strong>",
+          "description": "Bu şablondaki her seçim bilinçli: kanıtlanmış kütüphaneler, net yapı, tip güvenliği. Klonlayın, içeriğinizi ve API anahtarlarınızı ekleyin, yayınlayın."
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "Kapat"
-    },
-    "sidebar": {
-      "sidebarTitle": "Kenar çubuğu",
-      "sidebarDescription": "Kenar çubuğunu gösterir.",
-      "toggleSidebar": "Kenar çubuğunu aç/kapat"
     },
     "sheet": {
       "close": "Kapat"

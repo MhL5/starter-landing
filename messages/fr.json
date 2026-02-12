@@ -6,35 +6,56 @@
         "description": "Modèle de panneau de démarrage"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "Déconnexion"
-        },
-        "NavSecondary": {
-          "support": "Support",
-          "feedback": "Commentaires"
-        },
-        "NavMain": {
-          "groupLabel": "Principal",
-          "toggle": "Basculer",
-          "links": {
-            "posts": "Publications",
-            "newPost": "Nouvelle publication"
+        "SiteHeader": {
+          "title": "Démarrage",
+          "menu": "Menu",
+          "theme": "Thème",
+          "nav": {
+            "blogs": "Blogs",
+            "blog": "Blog",
+            "terms": "Conditions",
+            "privacy": "Confidentialité"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "Bienvenue sur {appName}",
-          "description": "Entrez votre e-mail pour vous connecter à votre compte.",
-          "emailLabel": "E-mail",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "Connexion",
-          "or": "Ou",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "E-mail",
-          "footer": "En continuant, vous acceptez nos <terms>Conditions d'utilisation</terms> et notre <privacy>Politique de confidentialité</privacy>."
+        },
+        "SiteFooter": {
+          "title": "Démarrage",
+          "description": "Modèle Next.js avec i18n, thème sombre, TanStack Query, ky, validation d'env, blog et shadcn UI.",
+          "copyright": "© {year} {appName}. Utilisation libre."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "Modèle",
+          "title3": "bien fait.",
+          "description": "i18n, thème sombre, TanStack Query, ky, validation d'env, blog, shadcn UI. Un dépôt. Zéro galère de config.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "Thème sombre",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Validation d'env",
+            "blog": "Blog",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "Ce qu'il contient",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "Plusieurs langues, prise en charge RTL, next-intl. Routage et messages prêts pour une portée mondiale dès le premier jour.",
+            "darkTheme": "Thème sombre",
+            "darkThemeParagraph": "next-themes et variables CSS. Bascule dans l'en-tête, préférence enregistrée. Pas de scintillement.",
+            "remoteStateManagement": "Gestion d'état distant",
+            "remoteStateManagementParagraph": "TanStack Query pour l'état serveur, ky pour les requêtes. Cache et états de chargement gérés pour vous concentrer sur l'UI.",
+            "envValidation": "Validation d'env",
+            "envValidationParagraph": "Env typé avec Zod et @t3-oss/env-nextjs. Échec au build ou à l'exécution si quelque chose manque.",
+            "blog": "Blog",
+            "blogParagraph": "Structure prête pour MDX pour ajouter un blog ou une doc sans repenser la stack.",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "Boutons, cartes, formulaires, dialogues. Composants copier-coller qui respectent votre thème et l'accessibilité."
+          }
+        },
+        "WhySection": {
+          "title": "Arrêtez de configurer. <strong>Commencez à construire.</strong>",
+          "description": "Chaque choix dans ce modèle est réfléchi : bibliothèques éprouvées, structure claire, typage. Clonez, ajoutez votre contenu et vos clés API, et livrez."
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "Fermer"
-    },
-    "sidebar": {
-      "sidebarTitle": "Barre latérale",
-      "sidebarDescription": "Affiche la barre latérale.",
-      "toggleSidebar": "Basculer la barre latérale"
     },
     "sheet": {
       "close": "Fermer"

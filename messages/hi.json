@@ -6,35 +6,56 @@
         "description": "पैनल स्टार्टर टेम्पलेट"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "लॉग आउट"
-        },
-        "NavSecondary": {
-          "support": "सहायता",
-          "feedback": "फीडबैक"
-        },
-        "NavMain": {
-          "groupLabel": "मुख्य",
-          "toggle": "टॉगल",
-          "links": {
-            "posts": "पोस्ट",
-            "newPost": "नई पोस्ट"
+        "SiteHeader": {
+          "title": "शुरुआत",
+          "menu": "मेन्यू",
+          "theme": "थीम",
+          "nav": {
+            "blogs": "ब्लॉग",
+            "blog": "ब्लॉग",
+            "terms": "नियम",
+            "privacy": "गोपनीयता"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "{appName} में आपका स्वागत है",
-          "description": "अपने अकाउंट में लॉग इन करने के लिए ईमेल दर्ज करें।",
-          "emailLabel": "ईमेल",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "लॉग इन",
-          "or": "या",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "ईमेल",
-          "footer": "जारी रखने पर आप हमारी <terms>सेवा की शर्तें</terms> और <privacy>गोपनीयता नीति</privacy> से सहमत होते हैं।"
+        },
+        "SiteFooter": {
+          "title": "शुरुआत",
+          "description": "Next.js टेम्पलेट i18n, डार्क थीम, TanStack Query, ky, env वैलिडेशन, ब्लॉग और shadcn UI के साथ।",
+          "copyright": "© {year} {appName}. स्वतंत्रता से उपयोग करें।"
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "टेम्पलेट",
+          "title3": "सही तरीके से।",
+          "description": "i18n, डार्क थीम, TanStack Query, ky, env वैलिडेशन, ब्लॉग, shadcn UI. एक रेपो। कॉन्फ़िग की परेशानी नहीं।",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "डार्क थीम",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Env वैलिडेशन",
+            "blog": "ब्लॉग",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "अंदर क्या है",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "कई लोकल, RTL सपोर्ट, next-intl. रूटिंग और मैसेज पहले दिन से ग्लोबल जाने के लिए तैयार।",
+            "darkTheme": "डार्क थीम",
+            "darkThemeParagraph": "next-themes और CSS वेरिएबल। हेडर में टॉगल, प्रिफरेंस सेव। फ्लिकर नहीं।",
+            "remoteStateManagement": "रिमोट स्टेट मैनेजमेंट",
+            "remoteStateManagementParagraph": "सर्वर स्टेट के लिए TanStack Query, फ़ेच के लिए ky। कैश और लोडिंग स्टेट संभाला ताकि आप UI पर फोकस करें।",
+            "envValidation": "Env वैलिडेशन",
+            "envValidationParagraph": "Zod और @t3-oss/env-nextjs के साथ टाइप्ड env। बिल्ड या रनटाइम पर फेल अगर कुछ गायब है।",
+            "blog": "ब्लॉग",
+            "blogParagraph": "MDX-तैयार स्ट्रक्चर ताकि ब्लॉग या डॉक्स स्टैक बदले बिना जोड़ सकें।",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "बटन, कार्ड, फॉर्म, डायलॉग। कॉपी-पेस्ट कंपोनेंट जो आपकी थीम और एक्सेसिबिलिटी का ख्याल रखते हैं।"
+          }
+        },
+        "WhySection": {
+          "title": "कॉन्फ़िग करना बंद करें। <strong>बनाना शुरू करें।</strong>",
+          "description": "इस टेम्पलेट में हर चुनाव सोचा-समझा है: आज़माई हुई लाइब्रेरी, साफ स्ट्रक्चर, टाइप सेफ्टी। क्लोन करें, कंटेंट और API कीज़ डालें, शिप करें।"
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "बंद करें"
-    },
-    "sidebar": {
-      "sidebarTitle": "साइडबार",
-      "sidebarDescription": "साइडबार दिखाता है।",
-      "toggleSidebar": "साइडबार टॉगल करें"
     },
     "sheet": {
       "close": "बंद करें"

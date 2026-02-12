@@ -6,35 +6,56 @@
         "description": "面板入门模板"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "退出登录"
-        },
-        "NavSecondary": {
-          "support": "支持",
-          "feedback": "反馈"
-        },
-        "NavMain": {
-          "groupLabel": "主要",
-          "toggle": "切换",
-          "links": {
-            "posts": "帖子",
-            "newPost": "新帖子"
+        "SiteHeader": {
+          "title": "入门",
+          "menu": "菜单",
+          "theme": "主题",
+          "nav": {
+            "blogs": "博客",
+            "blog": "博客",
+            "terms": "条款",
+            "privacy": "隐私"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "欢迎使用 {appName}",
-          "description": "输入您的邮箱以登录账户。",
-          "emailLabel": "邮箱",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "登录",
-          "or": "或",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "邮箱",
-          "footer": "继续即表示您同意我们的<terms>服务条款</terms>和<privacy>隐私政策</privacy>。"
+        },
+        "SiteFooter": {
+          "title": "入门",
+          "description": "含 i18n、深色主题、TanStack Query、ky、环境校验、博客与 shadcn UI 的 Next.js 模板。",
+          "copyright": "© {year} {appName}. 随意使用。"
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "模板",
+          "title3": "一步到位。",
+          "description": "i18n、深色主题、TanStack Query、ky、环境校验、博客、shadcn UI。一个仓库，零配置烦恼。",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "深色主题",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "环境校验",
+            "blog": "博客",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "包含内容",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "多语言、RTL 支持、next-intl。路由与文案就绪，第一天即可面向全球。",
+            "darkTheme": "深色主题",
+            "darkThemeParagraph": "next-themes 与 CSS 变量。在顶栏切换，偏好持久化，无闪烁。",
+            "remoteStateManagement": "远程状态管理",
+            "remoteStateManagementParagraph": "TanStack Query 管服务端状态，ky 做请求。缓存与加载态已处理，专注 UI 即可。",
+            "envValidation": "环境校验",
+            "envValidationParagraph": "Zod 与 @t3-oss/env-nextjs 的强类型 env。缺项在构建或运行时即报错。",
+            "blog": "博客",
+            "blogParagraph": "MDX 就绪结构，无需改技术栈即可加博客或文档。",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "按钮、卡片、表单、对话框。复制即用的组件，尊重主题与无障碍。"
+          }
+        },
+        "WhySection": {
+          "title": "别再配置。<strong>开始构建。</strong>",
+          "description": "本模板的每个选择都有考量：成熟库、清晰结构、类型安全。克隆、填入内容与 API 密钥即可上线。"
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "关闭"
-    },
-    "sidebar": {
-      "sidebarTitle": "侧边栏",
-      "sidebarDescription": "显示侧边栏。",
-      "toggleSidebar": "切换侧边栏"
     },
     "sheet": {
       "close": "关闭"

@@ -6,35 +6,56 @@
         "description": "Шаблон панели запуска"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "Выйти"
-        },
-        "NavSecondary": {
-          "support": "Поддержка",
-          "feedback": "Обратная связь"
-        },
-        "NavMain": {
-          "groupLabel": "Основное",
-          "toggle": "Переключить",
-          "links": {
-            "posts": "Записи",
-            "newPost": "Новая запись"
+        "SiteHeader": {
+          "title": "Стартер",
+          "menu": "Меню",
+          "theme": "Тема",
+          "nav": {
+            "blogs": "Блоги",
+            "blog": "Блог",
+            "terms": "Условия",
+            "privacy": "Конфиденциальность"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "Добро пожаловать в {appName}",
-          "description": "Введите email для входа в аккаунт.",
-          "emailLabel": "Email",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "Войти",
-          "or": "Или",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "Email",
-          "footer": "Продолжая, вы соглашаетесь с нашими <terms>Условиями использования</terms> и <privacy>Политикой конфиденциальности</privacy>."
+        },
+        "SiteFooter": {
+          "title": "Стартер",
+          "description": "Шаблон Next.js с i18n, тёмной темой, TanStack Query, ky, проверкой env, блогом и shadcn UI.",
+          "copyright": "© {year} {appName}. Используйте свободно."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "Шаблон",
+          "title3": "сделано правильно.",
+          "description": "i18n, тёмная тема, TanStack Query, ky, проверка env, блог, shadcn UI. Один репозиторий. Без головной боли с настройкой.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "Тёмная тема",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Проверка env",
+            "blog": "Блог",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "Что внутри",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "Несколько языков, поддержка RTL, next-intl. Маршрутизация и сообщения готовы к глобальному использованию с первого дня.",
+            "darkTheme": "Тёмная тема",
+            "darkThemeParagraph": "next-themes и CSS-переменные. Переключатель в шапке, настройка сохраняется. Без мерцания.",
+            "remoteStateManagement": "Управление удалённым состоянием",
+            "remoteStateManagementParagraph": "TanStack Query для состояния сервера, ky для запросов. Кэш и состояния загрузки обработаны — фокус на интерфейсе.",
+            "envValidation": "Проверка env",
+            "envValidationParagraph": "Типизированный env с Zod и @t3-oss/env-nextjs. Ошибка при сборке или запуске, если что-то отсутствует.",
+            "blog": "Блог",
+            "blogParagraph": "Структура готова для MDX — можно добавить блог или документацию без переделки стека.",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "Кнопки, карточки, формы, диалоги. Компоненты copy-paste с учётом вашей темы и доступности."
+          }
+        },
+        "WhySection": {
+          "title": "Хватит настраивать. <strong>Начните создавать.</strong>",
+          "description": "Каждый выбор в этом шаблоне обдуман: проверенные библиотеки, ясная структура, типобезопасность. Клонируйте, добавьте контент и API-ключи — и вперёд."
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "Закрыть"
-    },
-    "sidebar": {
-      "sidebarTitle": "Боковая панель",
-      "sidebarDescription": "Отображает боковую панель.",
-      "toggleSidebar": "Переключить боковую панель"
     },
     "sheet": {
       "close": "Закрыть"

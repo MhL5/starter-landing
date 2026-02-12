@@ -8,7 +8,59 @@ declare const messages: {
         "title": "Panel Starter",
         "description": "Panel starter template"
       },
-      "components": {}
+      "components": {
+        "SiteHeader": {
+          "title": "Starter",
+          "menu": "Menu",
+          "theme": "Theme",
+          "nav": {
+            "blogs": "Blogs",
+            "blog": "Blog",
+            "terms": "Terms",
+            "privacy": "Privacy"
+          }
+        },
+        "SiteFooter": {
+          "title": "Starter",
+          "description": "Next.js template with i18n, dark theme, TanStack Query, ky, env validation, blog, and shadcn UI.",
+          "copyright": "© {year} {appName}. Use freely."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "Template",
+          "title3": "Done Right.",
+          "description": "i18n, dark theme, TanStack Query, ky, env validation, blog, shadcn UI. One repo. Zero config headaches.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "Dark theme",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Env validation",
+            "blog": "Blog",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "What's inside",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "Multiple locales, RTL support, next-intl. Routing and messages wired so you can go global from day one.",
+            "darkTheme": "Dark theme",
+            "darkThemeParagraph": "next-themes and CSS variables. Toggle in the header, preference persisted. No flicker.",
+            "remoteStateManagement": "Remote State Management",
+            "remoteStateManagementParagraph": "TanStack Query for server state, ky for fetching. Caching and loading states handled so you focus on UI.",
+            "envValidation": "Env validation",
+            "envValidationParagraph": "Typed env with Zod and @t3-oss/env-nextjs. Fail at build or runtime if something is missing.",
+            "blog": "Blog",
+            "blogParagraph": "MDX-ready structure so you can add a blog or docs without rethinking the stack.",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "Buttons, cards, forms, dialogs. Copy-paste components that respect your theme and accessibility."
+          }
+        },
+        "WhySection": {
+          "title": "Stop configuring. <strong>Start building.</strong>",
+          "description": "Every choice in this template is deliberate: proven libraries, clear structure, type safety. Clone it, add your content and API keys, and ship."
+        }
+      }
     }
   },
   "components": {

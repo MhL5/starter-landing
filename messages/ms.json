@@ -6,35 +6,56 @@
         "description": "Templat panel permulaan"
       },
       "components": {
-        "NavUser": {
-          "logoutLabel": "Log keluar"
-        },
-        "NavSecondary": {
-          "support": "Sokongan",
-          "feedback": "Maklum balas"
-        },
-        "NavMain": {
-          "groupLabel": "Utama",
-          "toggle": "Togol",
-          "links": {
-            "posts": "Catatan",
-            "newPost": "Catatan baru"
+        "SiteHeader": {
+          "title": "Permulaan",
+          "menu": "Menu",
+          "theme": "Tema",
+          "nav": {
+            "blogs": "Blog",
+            "blog": "Blog",
+            "terms": "Terma",
+            "privacy": "Privasi"
           }
-        }
-      }
-    },
-    "/login": {
-      "components": {
-        "loginForm": {
-          "title": "Selamat datang ke {appName}",
-          "description": "Masukkan e-mel anda untuk log masuk ke akaun.",
-          "emailLabel": "E-mel",
-          "emailPlaceholder": "m@example.com",
-          "loginButton": "Log masuk",
-          "or": "Atau",
-          "loginWithGoogle": "Google",
-          "loginWithEmail": "E-mel",
-          "footer": "Dengan meneruskan, anda bersetuju dengan <terms>Terma Perkhidmatan</terms> dan <privacy>Dasar Privasi</privacy> kami."
+        },
+        "SiteFooter": {
+          "title": "Permulaan",
+          "description": "Templat Next.js dengan i18n, tema gelap, TanStack Query, ky, pengesahan env, blog dan shadcn UI.",
+          "copyright": "© {year} {appName}. Guna secara bebas."
+        },
+        "HeroSection": {
+          "title1": "Next",
+          "title2": "Templat",
+          "title3": "Dibuat dengan betul.",
+          "description": "i18n, tema gelap, TanStack Query, ky, pengesahan env, blog, shadcn UI. Satu repo. Tiada masalah konfigurasi.",
+          "features": {
+            "i18n": "i18n",
+            "darkTheme": "Tema gelap",
+            "tanstackQuery": "TanStack Query",
+            "envValidation": "Pengesahan env",
+            "blog": "Blog",
+            "shadcnUI": "shadcn UI"
+          }
+        },
+        "WhatsInsideSection": {
+          "title": "Apa yang termasuk",
+          "features": {
+            "i18n": "i18n",
+            "i18nParagraph": "Pelbagai bahasa, sokongan RTL, next-intl. Penghalaan dan mesej sedia untuk global dari hari pertama.",
+            "darkTheme": "Tema gelap",
+            "darkThemeParagraph": "next-themes dan pemboleh ubah CSS. Togol dalam pengepala, pilihan disimpan. Tiada kelipan.",
+            "remoteStateManagement": "Pengurusan keadaan jauh",
+            "remoteStateManagementParagraph": "TanStack Query untuk keadaan pelayan, ky untuk pengambilan. Cache dan keadaan muat siap supaya anda fokus pada UI.",
+            "envValidation": "Pengesahan env",
+            "envValidationParagraph": "Env berjenis dengan Zod dan @t3-oss/env-nextjs. Gagal pada binaan atau masa jalan jika sesuatu kurang.",
+            "blog": "Blog",
+            "blogParagraph": "Struktur sedia MDX untuk menambah blog atau dokumen tanpa memikir semula stack.",
+            "shadcnUI": "shadcn UI",
+            "shadcnUIParagraph": "Butang, kad, borang, dialog. Komponen salin-tampal yang menghormati tema dan kebolehcapaian anda."
+          }
+        },
+        "WhySection": {
+          "title": "Berhenti mengkonfigurasi. <strong>Mula membina.</strong>",
+          "description": "Setiap pilihan dalam templat ini disengajakan: perpustakaan terbukti, struktur jelas, keselamatan jenis. Klon, tambah kandungan dan kunci API, dan hantar."
         }
       }
     }
@@ -70,11 +91,6 @@
     },
     "dialog": {
       "close": "Tutup"
-    },
-    "sidebar": {
-      "sidebarTitle": "Bar sisi",
-      "sidebarDescription": "Memaparkan bar sisi.",
-      "toggleSidebar": "Togol bar sisi"
     },
     "sheet": {
       "close": "Tutup"
