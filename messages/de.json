@@ -58,6 +58,14 @@
           "description": "Jede Entscheidung in dieser Vorlage ist bewusst: bewährte Bibliotheken, klare Struktur, Typsicherheit. Klonen, Inhalte und API-Keys hinzufügen, fertig."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Einblicke, Tutorials und Gedanken zur modernen Softwareentwicklung"
+        }
+      }
     }
   },
   "components": {

@@ -58,6 +58,14 @@
           "description": "Bu şablondaki her seçim bilinçli: kanıtlanmış kütüphaneler, net yapı, tip güvenliği. Klonlayın, içeriğinizi ve API anahtarlarınızı ekleyin, yayınlayın."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Modern yazılım geliştirme üzerine içgörüler, eğitimler ve düşünceler"
+        }
+      }
     }
   },
   "components": {

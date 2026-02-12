@@ -58,6 +58,14 @@
           "description": "Every choice in this template is deliberate: proven libraries, clear structure, type safety. Clone it, add your content and API keys, and ship."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Insights, tutorials, and thoughts on modern software development"
+        }
+      }
     }
   },
   "components": {

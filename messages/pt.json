@@ -58,6 +58,14 @@
           "description": "Cada escolha neste modelo é deliberada: bibliotecas comprovadas, estrutura clara, segurança de tipos. Clona, adiciona conteúdo e chaves API, e publica."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Reflexões, tutoriais e ideias sobre desenvolvimento de software moderno"
+        }
+      }
     }
   },
   "components": {

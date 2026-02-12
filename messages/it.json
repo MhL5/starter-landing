@@ -58,6 +58,14 @@
           "description": "Ogni scelta in questo template è deliberata: librerie collaudate, struttura chiara, type safety. Clonalo, aggiungi contenuti e API key, e pubblica."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Approfondimenti, tutorial e riflessioni sullo sviluppo software moderno"
+        }
+      }
     }
   },
   "components": {

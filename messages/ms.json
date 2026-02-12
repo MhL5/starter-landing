@@ -58,6 +58,14 @@
           "description": "Setiap pilihan dalam templat ini disengajakan: perpustakaan terbukti, struktur jelas, keselamatan jenis. Klon, tambah kandungan dan kunci API, dan hantar."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Gambaran, tutorial dan pemikiran tentang pembangunan perisian moden"
+        }
+      }
     }
   },
   "components": {

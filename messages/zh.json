@@ -58,6 +58,14 @@
           "description": "本模板的每个选择都有考量：成熟库、清晰结构、类型安全。克隆、填入内容与 API 密钥即可上线。"
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "博客",
+          "description": "关于现代软件开发的见解、教程与思考"
+        }
+      }
     }
   },
   "components": {

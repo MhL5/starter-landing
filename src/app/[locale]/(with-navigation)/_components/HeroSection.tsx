@@ -1,7 +1,28 @@
+import { MotionH1, MotionP, MotionSection, MotionUl } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import { getTranslations } from "next-intl/server";
 
-const features = [
+const container = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+  },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.4, ease: "easeOut" as const },
+  },
+};
+
+type HeroSectionMotionProps = {
+  className?: string;
+};
+
+const featuresTKey = [
   "i18n",
   "darkTheme",
   "tanstackQuery",
@@ -10,38 +31,47 @@ const features = [
   "shadcnUI",
 ] as const;
 
-type HeroSectionProps = {
-  className?: string;
-};
-
-export default async function HeroSection({ className }: HeroSectionProps) {
+export default async function HeroSectionMotion({
+  className,
+}: HeroSectionMotionProps) {
   const t = await getTranslations("app./.components.HeroSection");
-
   return (
-    <section
+    <MotionSection
       className={cn(
         "flex min-h-svh flex-col items-start justify-center",
         className,
       )}
+      initial="hidden"
+      animate="visible"
+      variants={container}
     >
       <div className="max-w-4xl">
-        <h1 className="font-sans text-[clamp(4rem,18vw,12rem)] leading-[0.9] tracking-[-0.04em]">
+        <MotionH1
+          className="font-sans text-[clamp(4rem,18vw,12rem)] leading-[0.9] tracking-[-0.04em]"
+          variants={item}
+        >
           {t("title1")}
           <br />
           <span className="text-primary">{t("title2")}</span>
           <br />
           {t("title3")}
-        </h1>
+        </MotionH1>
 
-        <p className="mt-8 max-w-[65ch] text-lg leading-7 text-foreground/80 md:text-xl md:leading-8">
+        <MotionP
+          className="mt-8 max-w-[65ch] text-lg leading-7 text-foreground/80 md:text-xl md:leading-8"
+          variants={item}
+        >
           {t("description")}
-        </p>
-        <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-base leading-6 text-foreground/70">
-          {features.map((f) => (
-            <li key={f}>{t(`features.${f}`)}</li>
+        </MotionP>
+        <MotionUl
+          className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-base leading-6 text-foreground/70"
+          variants={item}
+        >
+          {featuresTKey.map((feature) => (
+            <li key={feature}>{t(`features.${feature}`)}</li>
           ))}
-        </ul>
+        </MotionUl>
       </div>
-    </section>
+    </MotionSection>
   );
 }

@@ -58,6 +58,14 @@
           "description": "Cada decisión en esta plantilla es deliberada: librerías probadas, estructura clara, seguridad de tipos. Clónala, añade tu contenido y API keys, y lanza."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Reflexiones, tutoriales e ideas sobre desarrollo de software moderno"
+        }
+      }
     }
   },
   "components": {

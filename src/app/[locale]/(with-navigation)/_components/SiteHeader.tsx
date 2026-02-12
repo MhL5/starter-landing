@@ -19,7 +19,7 @@ const linksData = [
   },
   {
     labelTKey: "blog",
-    href: "/blog/demo",
+    href: "/blogs/demo",
   },
   {
     labelTKey: "terms",

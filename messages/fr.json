@@ -58,6 +58,14 @@
           "description": "Chaque choix dans ce modèle est réfléchi : bibliothèques éprouvées, structure claire, typage. Clonez, ajoutez votre contenu et vos clés API, et livrez."
         }
       }
+    },
+    "/blogs": {
+      "components": {
+        "BlogsSection": {
+          "title": "Blog",
+          "description": "Réflexions, tutoriels et idées sur le développement logiciel moderne"
+        }
+      }
     }
   },
   "components": {
