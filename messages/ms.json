@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Starter",
+        "description": "Templat panel permulaan"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Log keluar"
+        },
+        "NavSecondary": {
+          "support": "Sokongan",
+          "feedback": "Maklum balas"
+        },
+        "NavMain": {
+          "groupLabel": "Utama",
+          "toggle": "Togol",
+          "links": {
+            "posts": "Catatan",
+            "newPost": "Catatan baru"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Selamat datang ke {appName}",
+          "description": "Masukkan e-mel anda untuk log masuk ke akaun.",
+          "emailLabel": "E-mel",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Log masuk",
+          "or": "Atau",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "E-mel",
+          "footer": "Dengan meneruskan, anda bersetuju dengan <terms>Terma Perkhidmatan</terms> dan <privacy>Dasar Privasi</privacy> kami."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Laman utama",
+      "goBack": "Kembali",
+      "needHelp": "Perlukan bantuan?",
+      "contactSupport": "Hubungi sokongan",
+      "actionsNavAriaLabel": "tindakan",
+      "notFound": {
+        "title": "Tiada di sini",
+        "description": "Halaman yang anda cuba buka tidak wujud. Anda mungkin tersilap taip alamat, atau halaman telah dipindahkan."
+      },
+      "forbidden": {
+        "title": "Akses ditolak",
+        "description": "Anda tidak mempunyai kebenaran untuk mengakses sumber ini. Hubungi pentadbir jika anda rasa ini ralat."
+      },
+      "unauthorized": {
+        "title": "Pengesahan diperlukan",
+        "description": "Anda perlu log masuk untuk mengakses halaman ini.",
+        "signIn": "Log masuk"
+      },
+      "error": {
+        "title": "Ralat berlaku",
+        "description": "Sila cuba lagi atau hubungi sokongan jika masalah berterusan.",
+        "tryAgain": "Cuba lagi"
+      },
+      "loading": {
+        "ariaLabel": "Memuatkan..."
+      }
+    },
+    "dialog": {
+      "close": "Tutup"
+    },
+    "sidebar": {
+      "sidebarTitle": "Bar sisi",
+      "sidebarDescription": "Memaparkan bar sisi.",
+      "toggleSidebar": "Togol bar sisi"
+    },
+    "sheet": {
+      "close": "Tutup"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Togol tema"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

@@ -1,0 +1,59 @@
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+import { defineConfig, globalIgnores } from "eslint/config";
+
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+  ]),
+  {
+    rules: {
+      "react/jsx-no-literals": "warn",
+      "no-console": "warn",
+      "no-restricted-imports": [
+        "error",
+        {
+          name: "next/image",
+          message: "Please import from `@/components/ui/Img` instead.",
+          importNames: ["default"],
+        },
+        {
+          name: "next/link",
+          message: "Please import Link from `@/components/ui/link` instead.",
+          importNames: ["default"],
+        },
+        {
+          name: "@/i18n/navigation",
+          message: "Please import  Link from `@/components/ui/link` instead.",
+          importNames: ["Link"],
+        },
+        {
+          name: "next/navigation",
+          importNames: [
+            "redirect",
+            "permanentRedirect",
+            "useRouter",
+            "usePathname",
+          ],
+          message: "Please import from `@/features/i18n/navigation` instead.",
+        },
+      ],
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          selector: "typeLike",
+          format: ["PascalCase"],
+        },
+      ],
+    },
+  },
+]);
+
+export default eslintConfig;

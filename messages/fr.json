@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Starter",
+        "description": "Modèle de panneau de démarrage"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Déconnexion"
+        },
+        "NavSecondary": {
+          "support": "Support",
+          "feedback": "Commentaires"
+        },
+        "NavMain": {
+          "groupLabel": "Principal",
+          "toggle": "Basculer",
+          "links": {
+            "posts": "Publications",
+            "newPost": "Nouvelle publication"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Bienvenue sur {appName}",
+          "description": "Entrez votre e-mail pour vous connecter à votre compte.",
+          "emailLabel": "E-mail",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Connexion",
+          "or": "Ou",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "E-mail",
+          "footer": "En continuant, vous acceptez nos <terms>Conditions d'utilisation</terms> et notre <privacy>Politique de confidentialité</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Accueil",
+      "goBack": "Retour",
+      "needHelp": "Besoin d'aide?",
+      "contactSupport": "Contacter le support",
+      "actionsNavAriaLabel": "actions",
+      "notFound": {
+        "title": "Rien à voir ici",
+        "description": "La page que vous essayez d'ouvrir n'existe pas. Vous avez peut-être mal saisi l'adresse ou la page a été déplacée."
+      },
+      "forbidden": {
+        "title": "Accès refusé",
+        "description": "Vous n'avez pas la permission d'accéder à cette ressource. Contactez un administrateur si vous pensez qu'il s'agit d'une erreur."
+      },
+      "unauthorized": {
+        "title": "Authentification requise",
+        "description": "Vous devez vous connecter pour accéder à cette page.",
+        "signIn": "Se connecter"
+      },
+      "error": {
+        "title": "Une erreur s'est produite",
+        "description": "Veuillez réessayer ou contacter le support si le problème persiste.",
+        "tryAgain": "Réessayer"
+      },
+      "loading": {
+        "ariaLabel": "Chargement..."
+      }
+    },
+    "dialog": {
+      "close": "Fermer"
+    },
+    "sidebar": {
+      "sidebarTitle": "Barre latérale",
+      "sidebarDescription": "Affiche la barre latérale.",
+      "toggleSidebar": "Basculer la barre latérale"
+    },
+    "sheet": {
+      "close": "Fermer"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Changer le thème"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

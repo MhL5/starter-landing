@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Starter",
+        "description": "Modello panel di avvio"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Esci"
+        },
+        "NavSecondary": {
+          "support": "Supporto",
+          "feedback": "Feedback"
+        },
+        "NavMain": {
+          "groupLabel": "Principale",
+          "toggle": "Attiva/Disattiva",
+          "links": {
+            "posts": "Post",
+            "newPost": "Nuovo post"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Benvenuto in {appName}",
+          "description": "Inserisci la tua email per accedere al tuo account.",
+          "emailLabel": "Email",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Accedi",
+          "or": "Oppure",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "Email",
+          "footer": "Continuando accetti i nostri <terms>Termini di servizio</terms> e la <privacy>Informativa sulla privacy</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Home",
+      "goBack": "Indietro",
+      "needHelp": "Serve aiuto?",
+      "contactSupport": "Contatta l'assistenza",
+      "actionsNavAriaLabel": "azioni",
+      "notFound": {
+        "title": "Niente da vedere qui",
+        "description": "La pagina che stai cercando di aprire non esiste. Potresti aver digitato male l'indirizzo o la pagina è stata spostata."
+      },
+      "forbidden": {
+        "title": "Accesso negato",
+        "description": "Non hai il permesso di accedere a questa risorsa. Contatta un amministratore se pensi sia un errore."
+      },
+      "unauthorized": {
+        "title": "Autenticazione richiesta",
+        "description": "Devi accedere per accedere a questa pagina.",
+        "signIn": "Accedi"
+      },
+      "error": {
+        "title": "Si è verificato un errore",
+        "description": "Riprova o contatta l'assistenza se il problema persiste.",
+        "tryAgain": "Riprova"
+      },
+      "loading": {
+        "ariaLabel": "Caricamento..."
+      }
+    },
+    "dialog": {
+      "close": "Chiudi"
+    },
+    "sidebar": {
+      "sidebarTitle": "Barra laterale",
+      "sidebarDescription": "Mostra la barra laterale.",
+      "toggleSidebar": "Mostra/nascondi barra laterale"
+    },
+    "sheet": {
+      "close": "Chiudi"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Cambia tema"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

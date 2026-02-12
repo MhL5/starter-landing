@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Starter",
+        "description": "Modelo de painel de arranque"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Terminar sessão"
+        },
+        "NavSecondary": {
+          "support": "Suporte",
+          "feedback": "Feedback"
+        },
+        "NavMain": {
+          "groupLabel": "Principal",
+          "toggle": "Alternar",
+          "links": {
+            "posts": "Publicações",
+            "newPost": "Nova publicação"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Bem-vindo ao {appName}",
+          "description": "Introduza o seu e-mail para iniciar sessão na sua conta.",
+          "emailLabel": "E-mail",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Entrar",
+          "or": "Ou",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "E-mail",
+          "footer": "Ao continuar, concorda com os nossos <terms>Termos de Serviço</terms> e <privacy>Política de Privacidade</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Início",
+      "goBack": "Voltar",
+      "needHelp": "Precisa de ajuda?",
+      "contactSupport": "Contactar suporte",
+      "actionsNavAriaLabel": "ações",
+      "notFound": {
+        "title": "Nada aqui",
+        "description": "A página que está a tentar abrir não existe. Pode ter escrito mal o endereço ou a página foi movida."
+      },
+      "forbidden": {
+        "title": "Acesso negado",
+        "description": "Não tem permissão para aceder a este recurso. Contacte um administrador se achar que isto é um erro."
+      },
+      "unauthorized": {
+        "title": "Autenticação necessária",
+        "description": "Precisa de iniciar sessão para aceder a esta página.",
+        "signIn": "Iniciar sessão"
+      },
+      "error": {
+        "title": "Ocorreu um erro",
+        "description": "Tente novamente ou contacte o suporte se o problema persistir.",
+        "tryAgain": "Tentar novamente"
+      },
+      "loading": {
+        "ariaLabel": "A carregar..."
+      }
+    },
+    "dialog": {
+      "close": "Fechar"
+    },
+    "sidebar": {
+      "sidebarTitle": "Barra lateral",
+      "sidebarDescription": "Mostra a barra lateral.",
+      "toggleSidebar": "Alternar barra lateral"
+    },
+    "sheet": {
+      "close": "Fechar"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Alternar tema"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

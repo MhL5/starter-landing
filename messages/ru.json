@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Панель Стартер",
+        "description": "Шаблон панели запуска"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Выйти"
+        },
+        "NavSecondary": {
+          "support": "Поддержка",
+          "feedback": "Обратная связь"
+        },
+        "NavMain": {
+          "groupLabel": "Основное",
+          "toggle": "Переключить",
+          "links": {
+            "posts": "Записи",
+            "newPost": "Новая запись"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Добро пожаловать в {appName}",
+          "description": "Введите email для входа в аккаунт.",
+          "emailLabel": "Email",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Войти",
+          "or": "Или",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "Email",
+          "footer": "Продолжая, вы соглашаетесь с нашими <terms>Условиями использования</terms> и <privacy>Политикой конфиденциальности</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "На главную",
+      "goBack": "Назад",
+      "needHelp": "Нужна помощь?",
+      "contactSupport": "Связаться с поддержкой",
+      "actionsNavAriaLabel": "действия",
+      "notFound": {
+        "title": "Здесь ничего нет",
+        "description": "Запрашиваемая страница не существует. Возможно, вы ошиблись в адресе или страница была перемещена."
+      },
+      "forbidden": {
+        "title": "Доступ запрещён",
+        "description": "У вас нет разрешения на доступ к этому ресурсу. Свяжитесь с администратором, если считаете, что это ошибка."
+      },
+      "unauthorized": {
+        "title": "Требуется аутентификация",
+        "description": "Вам необходимо войти в систему для доступа к этой странице.",
+        "signIn": "Войти"
+      },
+      "error": {
+        "title": "Произошла ошибка",
+        "description": "Попробуйте ещё раз или свяжитесь с поддержкой, если проблема сохраняется.",
+        "tryAgain": "Повторить"
+      },
+      "loading": {
+        "ariaLabel": "Загрузка..."
+      }
+    },
+    "dialog": {
+      "close": "Закрыть"
+    },
+    "sidebar": {
+      "sidebarTitle": "Боковая панель",
+      "sidebarDescription": "Отображает боковую панель.",
+      "toggleSidebar": "Переключить боковую панель"
+    },
+    "sheet": {
+      "close": "Закрыть"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Переключить тему"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Starter",
+        "description": "Panel-Startervorlage"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Abmelden"
+        },
+        "NavSecondary": {
+          "support": "Support",
+          "feedback": "Feedback"
+        },
+        "NavMain": {
+          "groupLabel": "Hauptmenü",
+          "toggle": "Umschalten",
+          "links": {
+            "posts": "Beiträge",
+            "newPost": "Neuer Beitrag"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Willkommen bei {appName}",
+          "description": "Geben Sie Ihre E-Mail ein, um sich anzumelden.",
+          "emailLabel": "E-Mail",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Anmelden",
+          "or": "Oder",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "E-Mail",
+          "footer": "Mit dem Klick auf Weiter akzeptieren Sie unsere <terms>Nutzungsbedingungen</terms> und die <privacy>Datenschutzrichtlinie</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Startseite",
+      "goBack": "Zurück",
+      "needHelp": "Brauchen Sie Hilfe?",
+      "contactSupport": "Support kontaktieren",
+      "actionsNavAriaLabel": "Aktionen",
+      "notFound": {
+        "title": "Hier gibt es nichts zu sehen",
+        "description": "Die angeforderte Seite existiert nicht. Möglicherweise haben Sie die Adresse falsch eingegeben oder die Seite wurde verschoben."
+      },
+      "forbidden": {
+        "title": "Zugriff verweigert",
+        "description": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen. Kontaktieren Sie einen Administrator, wenn Sie glauben, dass dies ein Fehler ist."
+      },
+      "unauthorized": {
+        "title": "Authentifizierung erforderlich",
+        "description": "Sie müssen sich anmelden, um auf diese Seite zuzugreifen.",
+        "signIn": "Anmelden"
+      },
+      "error": {
+        "title": "Ein Fehler ist aufgetreten",
+        "description": "Bitte versuchen Sie es erneut oder kontaktieren Sie den Support, wenn das Problem weiterhin besteht.",
+        "tryAgain": "Erneut versuchen"
+      },
+      "loading": {
+        "ariaLabel": "Laden..."
+      }
+    },
+    "dialog": {
+      "close": "Schließen"
+    },
+    "sidebar": {
+      "sidebarTitle": "Seitenleiste",
+      "sidebarDescription": "Zeigt die Seitenleiste an.",
+      "toggleSidebar": "Seitenleiste umschalten"
+    },
+    "sheet": {
+      "close": "Schließen"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Design umschalten"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

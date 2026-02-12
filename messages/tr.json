@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Başlangıç",
+        "description": "Panel başlangıç şablonu"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Çıkış yap"
+        },
+        "NavSecondary": {
+          "support": "Destek",
+          "feedback": "Geri bildirim"
+        },
+        "NavMain": {
+          "groupLabel": "Ana",
+          "toggle": "Aç/Kapat",
+          "links": {
+            "posts": "Gönderiler",
+            "newPost": "Yeni gönderi"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "{appName} hoş geldiniz",
+          "description": "Hesabınıza giriş yapmak için e-posta adresinizi girin.",
+          "emailLabel": "E-posta",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Giriş yap",
+          "or": "veya",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "E-posta",
+          "footer": "Devam ederek <terms>Hizmet Şartları</terms> ve <privacy>Gizlilik Politikası</privacy>mızı kabul etmiş olursunuz."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Ana sayfa",
+      "goBack": "Geri",
+      "needHelp": "Yardım gerekli mi?",
+      "contactSupport": "Destekle iletişim",
+      "actionsNavAriaLabel": "işlemler",
+      "notFound": {
+        "title": "Burada bir şey yok",
+        "description": "Açmaya çalıştığınız sayfa mevcut değil. Adresi yanlış yazmış olabilirsiniz veya sayfa taşınmış olabilir."
+      },
+      "forbidden": {
+        "title": "Erişim reddedildi",
+        "description": "Bu kaynağa erişim izniniz yok. Bunun bir hata olduğunu düşünüyorsanız bir yöneticiyle iletişime geçin."
+      },
+      "unauthorized": {
+        "title": "Kimlik doğrulama gerekli",
+        "description": "Bu sayfaya erişmek için giriş yapmanız gerekiyor.",
+        "signIn": "Giriş yap"
+      },
+      "error": {
+        "title": "Bir hata oluştu",
+        "description": "Lütfen tekrar deneyin veya sorun devam ederse destekle iletişime geçin.",
+        "tryAgain": "Tekrar dene"
+      },
+      "loading": {
+        "ariaLabel": "Yükleniyor..."
+      }
+    },
+    "dialog": {
+      "close": "Kapat"
+    },
+    "sidebar": {
+      "sidebarTitle": "Kenar çubuğu",
+      "sidebarDescription": "Kenar çubuğunu gösterir.",
+      "toggleSidebar": "Kenar çubuğunu aç/kapat"
+    },
+    "sheet": {
+      "close": "Kapat"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Temayı değiştir"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

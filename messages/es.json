@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "Panel Starter",
+        "description": "Plantilla de panel de inicio"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "Cerrar sesión"
+        },
+        "NavSecondary": {
+          "support": "Soporte",
+          "feedback": "Comentarios"
+        },
+        "NavMain": {
+          "groupLabel": "Principal",
+          "toggle": "Alternar",
+          "links": {
+            "posts": "Publicaciones",
+            "newPost": "Nueva publicación"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "Bienvenido a {appName}",
+          "description": "Introduce tu correo electrónico para iniciar sesión en tu cuenta.",
+          "emailLabel": "Correo electrónico",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "Iniciar sesión",
+          "or": "O",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "Correo",
+          "footer": "Al continuar, aceptas nuestros <terms>Términos de Servicio</terms> y la <privacy>Política de Privacidad</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "Inicio",
+      "goBack": "Volver",
+      "needHelp": "¿Necesitas ayuda?",
+      "contactSupport": "Contactar soporte",
+      "actionsNavAriaLabel": "acciones",
+      "notFound": {
+        "title": "Nada que ver aquí",
+        "description": "La página que intentas abrir no existe. Puede que hayas escrito mal la dirección o que la página se haya movido a otra URL."
+      },
+      "forbidden": {
+        "title": "Acceso denegado",
+        "description": "No tienes permiso para acceder a este recurso. Contacta con un administrador si crees que esto es un error."
+      },
+      "unauthorized": {
+        "title": "Autenticación requerida",
+        "description": "Necesitas iniciar sesión para acceder a esta página.",
+        "signIn": "Iniciar sesión"
+      },
+      "error": {
+        "title": "Ocurrió un error",
+        "description": "Por favor, inténtalo de nuevo o contacta con soporte si el problema persiste.",
+        "tryAgain": "Intentar de nuevo"
+      },
+      "loading": {
+        "ariaLabel": "Cargando..."
+      }
+    },
+    "dialog": {
+      "close": "Cerrar"
+    },
+    "sidebar": {
+      "sidebarTitle": "Barra lateral",
+      "sidebarDescription": "Muestra la barra lateral.",
+      "toggleSidebar": "Alternar barra lateral"
+    },
+    "sheet": {
+      "close": "Cerrar"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "Alternar tema"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

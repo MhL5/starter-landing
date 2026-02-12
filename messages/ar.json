@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "لوحة البداية",
+        "description": "قالب لوحة البداية"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "تسجيل الخروج"
+        },
+        "NavSecondary": {
+          "support": "الدعم",
+          "feedback": "الملاحظات"
+        },
+        "NavMain": {
+          "groupLabel": "الرئيسية",
+          "toggle": "تبديل",
+          "links": {
+            "posts": "المقالات",
+            "newPost": "مقال جديد"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "مرحباً بك في {appName}",
+          "description": "أدخل بريدك الإلكتروني لتسجيل الدخول إلى حسابك.",
+          "emailLabel": "البريد الإلكتروني",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "تسجيل الدخول",
+          "or": "أو",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "البريد",
+          "footer": "بالنقر على متابعة، فإنك توافق على <terms>شروط الخدمة</terms> و<privacy>سياسة الخصوصية</privacy>."
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "الرئيسية",
+      "goBack": "رجوع",
+      "needHelp": "تحتاج مساعدة",
+      "contactSupport": "تواصل مع الدعم",
+      "actionsNavAriaLabel": "الإجراءات",
+      "notFound": {
+        "title": "لا شيء هنا",
+        "description": "الصفحة التي تحاول فتحها غير موجودة. ربما أخطأت في العنوان، أو نُقلت الصفحة إلى عنوان آخر."
+      },
+      "forbidden": {
+        "title": "الوصول مرفوض",
+        "description": "ليس لديك إذن للوصول إلى هذا المورد. تواصل مع المسؤول إذا كنت تعتقد أن هذا خطأ."
+      },
+      "unauthorized": {
+        "title": "المصادقة مطلوبة",
+        "description": "تحتاج إلى تسجيل الدخول للوصول إلى هذه الصفحة.",
+        "signIn": "تسجيل الدخول"
+      },
+      "error": {
+        "title": "حدث خطأ",
+        "description": "يرجى المحاولة مرة أخرى أو التواصل مع الدعم إذا استمرت المشكلة.",
+        "tryAgain": "حاول مرة أخرى"
+      },
+      "loading": {
+        "ariaLabel": "جاري التحميل..."
+      }
+    },
+    "dialog": {
+      "close": "إغلاق"
+    },
+    "sidebar": {
+      "sidebarTitle": "الشريط الجانبي",
+      "sidebarDescription": "يعرض الشريط الجانبي.",
+      "toggleSidebar": "تبديل الشريط الجانبي"
+    },
+    "sheet": {
+      "close": "إغلاق"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "تبديل السمة"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

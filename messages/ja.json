@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "パネルスターター",
+        "description": "パネルスターターテンプレート"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "ログアウト"
+        },
+        "NavSecondary": {
+          "support": "サポート",
+          "feedback": "フィードバック"
+        },
+        "NavMain": {
+          "groupLabel": "メイン",
+          "toggle": "切り替え",
+          "links": {
+            "posts": "投稿",
+            "newPost": "新規投稿"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "{appName}へようこそ",
+          "description": "アカウントにログインするにはメールアドレスを入力してください。",
+          "emailLabel": "メール",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "ログイン",
+          "or": "または",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "メール",
+          "footer": "続行すると、<terms>利用規約</terms>と<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。"
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "ホーム",
+      "goBack": "戻る",
+      "needHelp": "ヘルプが必要ですか？",
+      "contactSupport": "サポートに連絡",
+      "actionsNavAriaLabel": "アクション",
+      "notFound": {
+        "title": "ここには何もありません",
+        "description": "お探しのページは存在しません。URLの入力ミスか、ページが移動した可能性があります。"
+      },
+      "forbidden": {
+        "title": "アクセス拒否",
+        "description": "このリソースにアクセスする権限がありません。不具合と思われる場合は管理者にお問い合わせください。"
+      },
+      "unauthorized": {
+        "title": "認証が必要です",
+        "description": "このページにアクセスするにはログインが必要です。",
+        "signIn": "ログイン"
+      },
+      "error": {
+        "title": "エラーが発生しました",
+        "description": "もう一度お試しいただくか、問題が続く場合はサポートまでご連絡ください。",
+        "tryAgain": "再試行"
+      },
+      "loading": {
+        "ariaLabel": "読み込み中..."
+      }
+    },
+    "dialog": {
+      "close": "閉じる"
+    },
+    "sidebar": {
+      "sidebarTitle": "サイドバー",
+      "sidebarDescription": "サイドバーを表示します。",
+      "toggleSidebar": "サイドバーの表示切替"
+    },
+    "sheet": {
+      "close": "閉じる"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "テーマを切り替え"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

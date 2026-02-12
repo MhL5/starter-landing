@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "पैनल स्टार्टर",
+        "description": "पैनल स्टार्टर टेम्पलेट"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "लॉग आउट"
+        },
+        "NavSecondary": {
+          "support": "सहायता",
+          "feedback": "फीडबैक"
+        },
+        "NavMain": {
+          "groupLabel": "मुख्य",
+          "toggle": "टॉगल",
+          "links": {
+            "posts": "पोस्ट",
+            "newPost": "नई पोस्ट"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "{appName} में आपका स्वागत है",
+          "description": "अपने अकाउंट में लॉग इन करने के लिए ईमेल दर्ज करें।",
+          "emailLabel": "ईमेल",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "लॉग इन",
+          "or": "या",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "ईमेल",
+          "footer": "जारी रखने पर आप हमारी <terms>सेवा की शर्तें</terms> और <privacy>गोपनीयता नीति</privacy> से सहमत होते हैं।"
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "होम",
+      "goBack": "वापस जाएं",
+      "needHelp": "मदद चाहिए?",
+      "contactSupport": "सहायता से संपर्क करें",
+      "actionsNavAriaLabel": "कार्रवाई",
+      "notFound": {
+        "title": "यहाँ कुछ नहीं है",
+        "description": "जिस पेज को आप खोलने की कोशिश कर रहे हैं वह मौजूद नहीं है। हो सकता है आपने पता गलत लिखा हो, या पेज दूसरे URL पर ले जाया गया हो।"
+      },
+      "forbidden": {
+        "title": "पहुंच अस्वीकृत",
+        "description": "आपके पास इस संसाधन तक पहुंच की अनुमति नहीं है। अगर लगे कि यह गलती है तो व्यवस्थापक से संपर्क करें।"
+      },
+      "unauthorized": {
+        "title": "प्रमाणीकरण आवश्यक",
+        "description": "इस पेज तक पहुंचने के लिए आपको साइन इन करना होगा।",
+        "signIn": "साइन इन करें"
+      },
+      "error": {
+        "title": "एक त्रुटि हुई",
+        "description": "कृपया पुनः प्रयास करें या समस्या बनी रहे तो सहायता से संपर्क करें।",
+        "tryAgain": "पुनः प्रयास करें"
+      },
+      "loading": {
+        "ariaLabel": "लोड हो रहा है..."
+      }
+    },
+    "dialog": {
+      "close": "बंद करें"
+    },
+    "sidebar": {
+      "sidebarTitle": "साइडबार",
+      "sidebarDescription": "साइडबार दिखाता है।",
+      "toggleSidebar": "साइडबार टॉगल करें"
+    },
+    "sheet": {
+      "close": "बंद करें"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "थीम बदलें"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}

@@ -1,0 +1,89 @@
+{
+  "app": {
+    "/": {
+      "metadata": {
+        "title": "面板入门",
+        "description": "面板入门模板"
+      },
+      "components": {
+        "NavUser": {
+          "logoutLabel": "退出登录"
+        },
+        "NavSecondary": {
+          "support": "支持",
+          "feedback": "反馈"
+        },
+        "NavMain": {
+          "groupLabel": "主要",
+          "toggle": "切换",
+          "links": {
+            "posts": "帖子",
+            "newPost": "新帖子"
+          }
+        }
+      }
+    },
+    "/login": {
+      "components": {
+        "loginForm": {
+          "title": "欢迎使用 {appName}",
+          "description": "输入您的邮箱以登录账户。",
+          "emailLabel": "邮箱",
+          "emailPlaceholder": "m@example.com",
+          "loginButton": "登录",
+          "or": "或",
+          "loginWithGoogle": "Google",
+          "loginWithEmail": "邮箱",
+          "footer": "继续即表示您同意我们的<terms>服务条款</terms>和<privacy>隐私政策</privacy>。"
+        }
+      }
+    }
+  },
+  "components": {
+    "FallbackPages": {
+      "home": "首页",
+      "goBack": "返回",
+      "needHelp": "需要帮助？",
+      "contactSupport": "联系支持",
+      "actionsNavAriaLabel": "操作",
+      "notFound": {
+        "title": "这里什么都没有",
+        "description": "您尝试打开的页面不存在。可能是地址输入错误，或页面已移至其他网址。"
+      },
+      "forbidden": {
+        "title": "访问被拒绝",
+        "description": "您没有权限访问此资源。若认为此为错误，请联系管理员。"
+      },
+      "unauthorized": {
+        "title": "需要身份验证",
+        "description": "您需要登录才能访问此页面。",
+        "signIn": "登录"
+      },
+      "error": {
+        "title": "发生错误",
+        "description": "请重试，若问题持续存在请联系支持。",
+        "tryAgain": "重试"
+      },
+      "loading": {
+        "ariaLabel": "加载中..."
+      }
+    },
+    "dialog": {
+      "close": "关闭"
+    },
+    "sidebar": {
+      "sidebarTitle": "侧边栏",
+      "sidebarDescription": "显示侧边栏。",
+      "toggleSidebar": "切换侧边栏"
+    },
+    "sheet": {
+      "close": "关闭"
+    },
+    "ThemeToggle": {
+      "toggleTheme": "切换主题"
+    }
+  },
+  "hooks": {},
+  "utils": {},
+  "lib": {}
+}
