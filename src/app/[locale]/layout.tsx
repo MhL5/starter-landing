@@ -1,22 +1,26 @@
+import { routing } from "@/features/i18n/routing";
 import { validateAndSetLocale } from "@/features/i18n/utils/validateLocale";
 import Providers from "@/providers/Providers";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { Bebas_Neue, DM_Sans } from "next/font/google";
 import localFont from "next/font/local";
-
-const notoSans = localFont({
-  src: "../../assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf",
-  variable: "--font-sans",
-});
-
-const geistMono = localFont({
-  src: "../../assets/fonts/Geist_Mono/GeistMono-VariableFont_wght.ttf",
-  variable: "--font-geist-mono",
-});
 
 const notoSansArabic = localFont({
   src: "../../assets/fonts/Noto_Sans_Arabic/NotoSansArabic-VariableFont_wdth,wght.ttf",
   variable: "--font-arabic",
+});
+const bebas = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dmSans",
+  display: "swap",
 });
 
 export async function generateMetadata({
@@ -40,6 +44,12 @@ export async function generateMetadata({
   };
 }
 
+export const revalidate = 259200; // 3 days
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function Layout({
   children,
   params,
@@ -53,12 +63,16 @@ export default async function Layout({
     <html
       dir={isArabic ? "rtl" : "ltr"}
       lang={validatedLocale}
-      className={isArabic ? notoSansArabic.variable : notoSans.variable}
+      className={
+        isArabic
+          ? notoSansArabic.variable
+          : `${bebas.variable} ${dmSans.variable}`
+      }
       data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <body
-        className={`${isArabic ? notoSansArabic.variable : geistMono.variable} min-w-87.5 antialiased`}
+        className={`${isArabic ? notoSansArabic.variable : dmSans.variable} min-w-87.5 antialiased`}
       >
         <Providers>{children}</Providers>
       </body>

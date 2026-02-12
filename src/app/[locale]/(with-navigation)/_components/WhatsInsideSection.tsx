@@ -34,14 +34,16 @@ const featuresData = [
 export default function WhatsInsideSection() {
   return (
     <section className="border-t border-border py-24 md:py-32">
-      <p className="text-lg text-muted-foreground uppercase">
+      <p className="text-sm font-medium tracking-widest text-foreground/60 uppercase">
         What&apos;s inside
       </p>
-      <ul className="mt-12 grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="mt-12 grid gap-14 sm:grid-cols-2 lg:grid-cols-3">
         {featuresData.map((feature) => (
-          <li key={feature.title}>
-            <h3 className="text-2xl font-bold">{feature.title}</h3>
-            <p className="mt-3 text-base leading-relaxed text-muted-foreground">
+          <li key={feature.title} className="max-w-[50ch]">
+            <h3 className="font-sans text-2xl font-bold tracking-wide text-foreground">
+              {feature.title}
+            </h3>
+            <p className="mt-4 text-[1.0625rem] leading-7 text-foreground/80">
               {feature.description}
             </p>
           </li>
