@@ -15,7 +15,7 @@ const eslintConfig = defineConfig([
   ]),
   {
     rules: {
-      "react/jsx-no-literals": "warn",
+      // "react/jsx-no-literals": "warn",
       "no-console": "warn",
       "no-restricted-imports": [
         "error",
