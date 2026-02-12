@@ -1,3 +1,5 @@
+import { validateAndSetLocale } from "@/features/i18n/utils/validateLocale";
+
 const htmlStringExample = `<section>
   <header>
     <h1>Legal</h1>
@@ -93,7 +95,10 @@ const htmlStringExample = `<section>
   </footer>
 </section>`;
 
-export default function Page() {
+export default async function Page({ params }: PageProps<"/[locale]/privacy">) {
+  const { locale } = await params;
+  validateAndSetLocale(locale);
+
   return (
     <article
       className="mx-auto prose w-full pt-10 pb-16"

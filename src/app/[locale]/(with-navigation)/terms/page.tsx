@@ -1,3 +1,5 @@
+import { validateAndSetLocale } from "@/features/i18n/utils/validateLocale";
+
 const htmlStringExample = `<main>
   <h1>Terms of Service</h1>
   <p><strong>Last updated:</strong> February 12, 2026</p>
@@ -112,7 +114,10 @@ const htmlStringExample = `<main>
 </main>
 `;
 
-export default function Page() {
+export default async function Page({ params }: PageProps<"/[locale]/terms">) {
+  const { locale } = await params;
+  validateAndSetLocale(locale);
+
   return (
     <article
       className="mx-auto prose w-full pt-10 pb-16"
